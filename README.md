@@ -4,6 +4,17 @@ This is a Flask-based server that provides endpoints for model selection and ima
 
 ## Setup
 
+### Download models
+
+```bash
+cd server
+mkdir models
+cd models
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth
+```
+
 ### Virtual environment
 
 Create and enter the virtual environment using:
